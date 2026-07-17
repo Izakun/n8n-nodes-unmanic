@@ -15,7 +15,7 @@ export class Unmanic implements INodeType {
 	description: INodeTypeDescription = {
 		displayName: 'Unmanic',
 		name: 'unmanic',
-		icon: { light: 'file:unmanic.svg', dark: 'file:unmanic.svg' },
+		icon: { light: 'file:unmanic.svg', dark: 'file:unmanic.dark.svg' },
 		group: ['transform'],
 		version: 1,
 		subtitle: '={{$parameter["operation"]}}',
